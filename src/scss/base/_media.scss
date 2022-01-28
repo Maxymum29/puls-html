@@ -1,0 +1,13 @@
+@media  ( max-width: 1024px){
+    .header{
+        display: flex;
+        justify-content: space-around;
+    }
+    .promo{
+        &__wrapper{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}
